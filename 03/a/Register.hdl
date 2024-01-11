@@ -15,4 +15,6 @@ CHIP Register {
 
     PARTS:
     // Put your code here:
+    for i in range(16):
+    Bit(in=in[i], load=load, out=out[i]);
 }
